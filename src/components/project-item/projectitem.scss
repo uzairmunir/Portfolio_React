@@ -1,0 +1,49 @@
+.card-container {
+  padding: 10px;
+  position: relative;
+
+  .img {
+    object-fit: cover;
+  }
+  .title {
+    text-align: center;
+    color: #333;
+  }
+  .hover-effect {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+
+    .icons-div {
+      position: absolute;
+      width: 80%;
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-around;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      bottom: 15px;
+
+      .icon {
+        font-size: 40px;
+        cursor: pointer;
+        color: white;
+        cursor: pointer;
+        &:hover {
+          color: #6e5494;
+        }
+      }
+    }
+    &:hover {
+      opacity: 1;
+    }
+  }
+}

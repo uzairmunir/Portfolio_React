@@ -1,0 +1,201 @@
+.dark-contact-container {
+  background-color: #333;
+  height: calc(100vh - 70px);
+  top: 70px;
+  padding: 10px;
+  color: #efefef;
+  > h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    padding: 5px;
+  }
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 20px;
+    > h1 {
+      font-size: 50px;
+    }
+    > p {
+      font-size: 20px;
+      font-weight: lighter;
+      color: #efefef;
+      padding: 10px 0;
+    }
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      padding: 20px 10px;
+
+      .icon {
+        font-size: 30px;
+      }
+      .mail {
+        color: #db4437;
+      }
+      .phone {
+        color: #25d366;
+      }
+      .address {
+        color: #7cb0f8;
+      }
+      .github {
+        color: #6e5494;
+      }
+      > span {
+        padding: 0 10px;
+        font-size: 20px;
+        color: #efefef;
+      }
+    }
+    > form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      p {
+        color: red;
+        font-size: 15px;
+      }
+
+      > input,
+      textarea {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        background-color: rgb(194, 193, 193);
+        color: #efefef;
+        border: 0.5px solid lightslategray;
+
+        &:focus {
+          outline: none;
+        }
+      }
+      .btn-div {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .btn {
+          background-color: crimson;
+          color: white;
+          width: 30%;
+          height: auto;
+          padding: 10px 5px;
+          margin: 5px;
+          border: 0;
+          outline: none;
+          cursor: pointer;
+          border-radius: 10px;
+        }
+        p {
+          text-align: center;
+          color: green;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}
+
+.contact-container {
+  background-color: white;
+  height: calc(100vh - 70px);
+  top: 70px;
+  padding: 10px;
+  > h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+    padding: 5px;
+  }
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 20px;
+    > h1 {
+      font-size: 50px;
+    }
+    > p {
+      font-size: 20px;
+      font-weight: lighter;
+      color: #333;
+      padding: 10px 0;
+    }
+
+    .contact-info {
+      display: flex;
+      align-items: center;
+      padding: 20px 10px;
+
+      .icon {
+        font-size: 30px;
+      }
+      .mail {
+        color: #db4437;
+      }
+      .phone {
+        color: #25d366;
+      }
+      .address {
+        color: #7cb0f8;
+      }
+      .github {
+        color: #6e5494;
+      }
+      > span {
+        padding: 0 10px;
+        font-size: 20px;
+        color: #333;
+      }
+    }
+    > form {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      p {
+        color: red;
+        font-size: 15px;
+      }
+
+      > input,
+      textarea {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+
+        &:focus {
+          outline: none;
+        }
+      }
+      .btn-div {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .btn {
+          background-color: crimson;
+          color: white;
+          width: 30%;
+          height: auto;
+          padding: 10px 5px;
+          margin: 5px;
+          border: 0;
+          outline: none;
+          cursor: pointer;
+          border-radius: 10px;
+        }
+        p {
+          text-align: center;
+          color: green;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+}

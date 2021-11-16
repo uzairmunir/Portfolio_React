@@ -1,0 +1,25 @@
+@import '../../global.scss';
+
+.portfolio-list-title {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: crimson;
+  cursor: pointer;
+
+  h4 {
+    font-weight: lighter;
+  }
+
+  &.active {
+    background-color: $main-color;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 300px) and (max-width: 547px) {
+  .portfolio-list-title {
+    padding: 10px 7px;
+    font-size: 17px;
+  }
+}

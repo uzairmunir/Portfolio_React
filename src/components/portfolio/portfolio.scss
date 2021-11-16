@@ -1,0 +1,41 @@
+.dark-portfolio {
+  background-color: #333;
+  min-height: auto;
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    color: #efefef;
+  }
+  .portfolio-list {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .portfolio-projects {
+    padding: 20px 30px;
+  }
+}
+
+.portfolio-container {
+  background-color: white;
+  min-height: auto;
+
+  h1 {
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+  }
+  .portfolio-list {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+  }
+  .portfolio-projects {
+    padding: 20px 30px;
+  }
+}

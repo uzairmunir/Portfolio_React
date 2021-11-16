@@ -1,0 +1,177 @@
+.dark-testimonial {
+  min-height: calc(100vh - 70px);
+  top: 70px;
+  background-color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+  overflow: hidden;
+  h1 {
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .card {
+    height: 400px;
+    width: 300px;
+    background-color: rgb(97, 96, 96);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow-y: hidden !important;
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px;
+
+      .undo-icon {
+        transform: rotate(180deg);
+        font-size: 25px;
+        font-weight: lighter;
+        color: #333;
+      }
+      .fb-icon {
+        color: black;
+        font-size: 25px;
+        transform: rotate(5deg);
+      }
+      img {
+        height: 100px;
+        width: 100px;
+        object-fit: contain;
+        border-radius: 50%;
+      }
+    }
+    .center {
+      padding: 20px 15px;
+      width: 90%;
+      margin: 0 auto;
+      background-color: rgb(158, 154, 155);
+      flex: 1;
+      border-radius: 10px;
+
+      h6 {
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+    .bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+
+      h3 {
+        color: #efefef;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      h4 {
+        font-size: 25px;
+        font-weight: lighter;
+        color: #333;
+      }
+    }
+  }
+}
+
+.testimonial-container {
+  min-height: calc(100vh - 70px);
+  top: 70px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 50px;
+  overflow: hidden;
+  h1 {
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    overflow: hidden;
+  }
+  .card {
+    height: 400px;
+    width: 300px;
+    background-color: #f5f4f4;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 0 auto;
+    border-radius: 10px;
+    overflow-y: hidden !important;
+
+    .top {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding: 30px;
+
+      .undo-icon {
+        transform: rotate(180deg);
+        font-size: 25px;
+        font-weight: lighter;
+        color: #333;
+      }
+      .fb-icon {
+        color: #3b5998;
+        font-size: 25px;
+        transform: rotate(5deg);
+      }
+      img {
+        height: 100px;
+        width: 100px;
+        object-fit: contain;
+        border-radius: 50%;
+      }
+    }
+    .center {
+      padding: 20px 15px;
+      width: 90%;
+      margin: 0 auto;
+      background-color: rgb(255, 184, 198);
+      flex: 1;
+      border-radius: 10px;
+
+      h6 {
+        font-size: 15px;
+        font-weight: 300;
+      }
+    }
+    .bottom {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 10px;
+
+      h3 {
+        color: crimson;
+        padding: 5px;
+        font-size: 20px;
+        font-weight: bold;
+      }
+      h4 {
+        font-size: 25px;
+        font-weight: lighter;
+        color: #333;
+      }
+    }
+  }
+}
+
+@media (min-width: 599px) and (max-width: 700px) {
+  .testimonial-container {
+    padding: 10px 5px;
+  }
+}
+@media (min-width: 599px) and (max-width: 310px) {
+  .dark-testimonial {
+    padding: 10px 5px;
+    .card {
+      width: 300px;
+    }
+  }
+}

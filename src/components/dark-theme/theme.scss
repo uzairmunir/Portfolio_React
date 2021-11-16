@@ -1,0 +1,23 @@
+.theme-container {
+  padding: 5px 10px;
+  border: 1px solid grey;
+  overflow: hidden;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+
+  .moon-icon {
+    transform: rotate(150deg);
+    font-size: 25px;
+    color: rgb(167, 167, 37);
+    cursor: pointer;
+  }
+  .sun-icon {
+    font-size: 25px;
+    color: rgb(167, 167, 37);
+    cursor: pointer;
+  }
+  .light {
+    color: white;
+  }
+}
